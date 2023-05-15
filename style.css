@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  margin: 50px auto;
+  padding: 50px;
+  width: 990px;
+  height: fit-content;
+  background-image: url(./img/bg.jpg);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 6px;
+
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+h1 {
+  padding: 25px 30px;
+  text-align: center;
+  color: #ffacc4;
+  font-weight: 600;
+  letter-spacing: 8px;
+  margin-bottom: 30px;
+  border: 1px solid #fec2d6;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
+.form-control {
+  padding: 15px 20px;
+  border: 1px dashed #ffa4c5;
+  width: 70%;
+  box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.3),
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+.form-control:focus {
+  border: 1px dashed #ffa4c5;
+  box-shadow: 0 0 0 0.25rem #ffa4c563;
+}
+.myCustomBtn {
+  padding: 10px 30px;
+  margin-left: 20px;
+  border-radius: 25px;
+  background-color: #fecbc6;
+  color: #eb517d;
+  font-weight: 600;
+  border: none;
+  box-shadow: -5px -5px 9px rgba(255, 255, 255, 0.45),
+    5px 5px 9px rgba(94, 104, 121, 0.3);
+}
+.myCustomBtn:hover {
+  box-shadow: inset 0px 2px 4px rgba(70, 70, 70, 0.12),
+    inset 0px 4px 8px rgba(70, 70, 70, 0.12),
+    inset 0px 8px 16px rgba(70, 70, 70, 0.12);
+  transition: 0.2s;
+  transform: translateY(2px);
+}
+.customOutput {
+  padding: 25px 30px;
+  margin: 25px 0 20px 0;
+  background-color: #ffd3e0;
+  color: #eb517d;
+  border-radius: 10px;
+  box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+.accordion {
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+.accordion-item {
+  border: 1.5px dashed #ffc5c0;
+}
+.accordion-button {
+  color: #eb517d;
+  word-spacing: 1px;
+  letter-spacing: 2px;
+}
+.accordion-button span {
+  margin-right: 15px;
+  width: 25px;
+  height: 25px;
+  background-color: #ffa4c5;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+}
+.accordion-button:not(.collapsed) {
+  color: #eb517d;
+  background-color: #ffd3e0;
+}
+.accordion-button:not(.collapsed)::after {
+  color: #eb517d;
+}
+.accordion-button:focus {
+  background-color: #ffd3e0;
+  box-shadow: none;
+}
+.accordion-button.active {
+  background-color: #ffd3e0;
+  box-shadow: none;
+}
