@@ -47,7 +47,7 @@ function timSoNhoNhat() {
         }
         document.getElementById("ketQua3").innerHTML = bienMin;
     } else {
-        document.getElementById("ketQua4").innerHTML = "Vui lòng nhập số vào mảng";
+        document.getElementById("ketQua3").innerHTML = "Vui lòng nhập số vào mảng";
     }
 }
 // CÂU 4
